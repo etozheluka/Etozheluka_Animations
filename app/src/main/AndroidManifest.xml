@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Etozheluka_Animations"
+        tools:targetApi="31">
+        <activity
+            android:name=".navigation.screens.AnimationsMainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Etozheluka_Animations">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".animations.text.TextAnimationActivity"
+            android:theme="@style/Theme.Etozheluka_Animations" />
+
+        <activity
+            android:name=".animations.offset.GestureOffsetAnimationActivity"
+            android:theme="@style/Theme.Etozheluka_Animations" />
+
+        <activity
+            android:name=".animations.offset.StaticOffsetAnimationActivity"
+            android:theme="@style/Theme.Etozheluka_Animations" />
+
+        <activity
+            android:name=".animations.infinite.InfiniteRepeatableAnimationActivity"
+            android:theme="@style/Theme.Etozheluka_Animations" />
+
+        <activity
+            android:name=".navigation.screens.CoroutineAnimationActivity"
+            android:theme="@style/Theme.Etozheluka_Animations" />
+
+        <activity
+            android:name=".animations.coroutine.ConcurrentAnimationActivity"
+            android:theme="@style/Theme.Etozheluka_Animations" />
+
+        <activity
+            android:name=".animations.coroutine.SequentialAnimationActivity"
+            android:theme="@style/Theme.Etozheluka_Animations" />
+
+        <activity
+            android:name=".animations.graphic_layer.GraphicLayerExampleActivity"
+            android:theme="@style/Theme.Etozheluka_Animations" />
+
+        <activity
+            android:name=".animations.state.StateBasedAnimationActivity"
+            android:theme="@style/Theme.Etozheluka_Animations" />
+
+        <activity
+            android:name=".navigation.screens.VectorBaseActivity"
+            android:theme="@style/Theme.Etozheluka_Animations" />
+
+        <activity
+            android:name=".animations.vector.LottieActivity"
+            android:theme="@style/Theme.Etozheluka_Animations" />
+
+        <activity
+            android:name=".animations.vector.VectorDrawableActivity"
+            android:theme="@style/Theme.Etozheluka_Animations" />
+
+        <activity
+            android:name=".navigation.screens.AnimatedVisibilityActivity"
+            android:theme="@style/Theme.Etozheluka_Animations" />
+
+        <activity
+            android:name=".animations.visibility.VisibilityPreviewActivity"
+            android:theme="@style/Theme.Etozheluka_Animations" />
+
+        <activity
+            android:name=".animations.visibility.VisibilityActivity"
+            android:theme="@style/Theme.Etozheluka_Animations" />
+
+        <activity
+            android:name=".navigation.screens.AnimatedOffsetActivity"
+            android:theme="@style/Theme.Etozheluka_Animations" />
+
+        <activity
+            android:name=".animations.size.SizePaddingActivity"
+            android:theme="@style/Theme.Etozheluka_Animations" />
+    </application>
+
+</manifest>
