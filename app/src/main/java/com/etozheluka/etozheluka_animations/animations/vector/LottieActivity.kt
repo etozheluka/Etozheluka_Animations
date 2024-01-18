@@ -55,7 +55,6 @@ class LottieActivity : ComponentActivity() {
             isPlaying = true
         )
 
-
         LottieAnimation(
             composition = preloaderLottieComposition,
             progress = preloaderProgress,

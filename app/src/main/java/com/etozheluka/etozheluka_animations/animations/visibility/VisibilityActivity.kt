@@ -53,7 +53,6 @@ class VisibilityActivity : ComponentActivity() {
         }
     }
 
-
     @Composable
     fun DrawBoxesFloatingActionButton() {
         var boxList by remember { mutableStateOf<List<BoxItem>>(emptyList()) }
